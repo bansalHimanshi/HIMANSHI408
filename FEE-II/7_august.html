@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+</body>
+</html>
+<h2>Transition Example</h2>
+<div class="transition-box">Hover over me!</div>
+<style>
+  .transition-box {
+    width: 200px;
+    height: 100px;
+    background: #4f8cff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 1.2em;
+    margin: 20px 0;
+    transition: background 0.5s, transform 0.5s;
+    cursor: pointer;
+  }
+  .transition-box:hover {
+    background: #ff6f91;
+    transform: scale(1.1) rotate(3deg);
+  }
+</style>
